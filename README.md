@@ -1,11 +1,12 @@
-Contrôle d'accès RFID multi-utilisateurs
-Projet n°4 — Système de contrôle d'accès connecté avec journalisation en ligne
+## Contrôle d'accès RFID multi-utilisateurs
 
-Étudiant : Sampeur Tom Marc Edouard
+## Projet n°4 — Système de contrôle d'accès connecté avec journalisation en ligne
+
+## Étudiant : Sampeur Tom Marc Edouard
 Simulation : Wokwi
 Microcontrôleur : ESP32
 
-Présentation
+## Présentation
 Ce projet est une version connectée et évolutive d'une serrure à code. Il utilise un lecteur RFID MFRC522 pour identifier plusieurs utilisateurs individuellement à partir de leur badge.
 
 Chaque tentative d'accès, qu'elle soit autorisée ou refusée, est enregistrée avec l'identité, l'UID du badge, le statut et la date/heure. Les données sont transmises à Firebase Realtime Database et peuvent être consultées depuis un tableau de bord web.
